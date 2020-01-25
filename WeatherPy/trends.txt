@@ -1,0 +1,9 @@
+3 trends from WeatherPy
+
+1. There is a relatively strong correlation between temperature and latitude. The regression of northern hemisphere cities show a relatively high negative correlation (r2 = -.85) indicating lower temperatures at higher latitudes and higher temperatures when approaching the equator (0). The regression of southern hemisphere cities show a weaker positive correlation of lower latitudes having lower temperatures and higher latitudes approaching the equator having higher temperatures. The lower r2 (0.43) may be due to less data points available (fewer cities in southern hemisphere analyzed compared to northern hemisphere).
+
+2. There is no strong correlation between latitude and cloudiness. Cloudiness is spread out relatively evenly across the the 615 randomly selected cities, regardless of latitude.
+
+3.Overall, there is no strong correlation between latitude and wind speed, however, the correlation is a bit stronger for the southern hemisphere with cities closer to the poles having higher wind speeds. For most of the 615 randomly selected cities, wind speed is spread out evenly regardless of latitude. However, there are some cities that are windier than others. Most cities had wind speeds under 8 mph on 1/24/20.
+
+4. Correlation between latitude and humidity was also relatively weak. For both the northern and southern hemisphere, there is a tendency of higher humidity at higher latitudes, however the correlation is relatively weak. This may be due to sampling as most cities selected have humidities over 60%.
